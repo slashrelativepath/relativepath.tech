@@ -1,3 +1,5 @@
+#! /bin/bash
+
 # This script sets up a Ubuntu machine to run this Node.js app locally
 
 # Install Node.js runtime environment
