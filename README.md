@@ -1,3 +1,5 @@
+[![Build and Deploy Static Files to GitHub Pages](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml/badge.svg)](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml)
+
 # React + TypeScript + Vite
 
 Template from [here](https://github.com/tailwindtoolbox/Landing-Page/blob/master/index.html).
