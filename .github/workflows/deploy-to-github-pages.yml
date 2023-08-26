@@ -1,7 +1,7 @@
 name: Build and Deploy Static Files to GitHub Pages
 on:
   push:
-    branches: ["main"]
+    branches: ["chris/cicd"]
 
 permissions:
   contents: read
