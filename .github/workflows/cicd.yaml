@@ -15,7 +15,7 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt update && apt upgrade -y
-          sudo apt install -y nodejs npm curl
+          sudo apt install -y nodejs curl
 
       - name: Install packages with npm
         run: npm install
@@ -23,10 +23,10 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Setup Local Test
-        run: npm run dev
+      - name: Build
+        run: npm run build
 
-      - name: test
+      - name: Test
         run: |
           if [ $(curl -o /dev/null -s -w "%{http_code}" http://localhost:5173 | grep 200) ]
           then
@@ -34,9 +34,6 @@ jobs:
           else
           exit 1
           fi
-
-      - name: Build our Static Assets
-        run: npm run build
 
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
