@@ -36,7 +36,7 @@ cd ./relativepath.tech
 bash setup.sh
 ```
 
-4. Run `test.sh` bash script to test the server out locally:
+4. Run the `test.sh` bash script to test the dev server out locally:
 
 ```bash
 bash test.sh
