@@ -18,7 +18,7 @@ A simple setup using:
 
 ## Setup
 
-1. Navigate to a location on your file system you'd like to put this project and clone this repository and run:
+1. Navigate to a location on your file system you'd like to put this project and clone this repository by running:
 
 ```bash
 git clone https://github.com/kensonjohnson/relativepath.tech.git
