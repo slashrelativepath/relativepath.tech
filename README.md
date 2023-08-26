@@ -10,11 +10,11 @@ For our developer setup we have assumed Ubuntu 22.04 as our base OS.
 
 A simple setup using:
 
-Vite ( build tool)
-TypeScript (build tool)
-React (UI)
-Tailwind CSS (UI)
-Example of the project file structure
+- Vite ( build tool)
+- TypeScript (build tool)
+- React (UI)
+- Tailwind CSS (UI)
+- Example of the project file structure
 
 ## Setup
 
