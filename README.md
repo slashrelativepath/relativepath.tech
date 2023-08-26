@@ -50,10 +50,18 @@ bash setup.sh
 
 ## Building
 
-1. To start the server, run the `build.sh` script and run it with bash:
+1. To build the server, run the `build.sh` script with bash:
 
 ```bash
 bash build.sh
+```
+
+## Start the server
+
+1. To start the server locally at `http://localhost:4173`, run the 'start-server.sh` script with bash:
+
+```bash
+bash start-server.sh
 ```
 
 ## Testing
