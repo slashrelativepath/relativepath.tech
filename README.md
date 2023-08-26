@@ -68,6 +68,7 @@ bash test.sh
 
 ## In Progress
 
+- `policy.sh` for compliance
 - `build.sh` script for local build automation
 - `test.sh` script for local testing automation
 - Add a badge for CICD status visibility
