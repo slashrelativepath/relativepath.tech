@@ -29,5 +29,4 @@ jobs:
         run: npm run build
 
       - name: Test Server
-        run: npm run preview -l "error"
-        timeout-minutes: 1
+        run: npm run preview & sh -c "curl -o /dev/null -s -w "%{http_code}" http://localhost:4173/ | grep 200"
