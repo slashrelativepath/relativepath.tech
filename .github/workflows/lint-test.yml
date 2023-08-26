@@ -30,11 +30,5 @@ jobs:
 
       - name: Test Server
         run: |
-          npm run preview
-          if [ $(curl -o /dev/null -s -w "%{http_code}" http://localhost:4173/ | grep 200) ]
-          then
-          echo "200 OK"
-          else
-          exit 1
-          fi
-          exit 0
+          npm run preview &&\
+            curl -o /dev/null -s -w "%{http_code}" http://localhost:4173/ | grep 200
