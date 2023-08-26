@@ -36,25 +36,13 @@ cd ./relativepath.tech
 bash setup.sh
 ```
 
-4. Run `npm install` from the `relativepath.tech` directory to install the dependencies for the site:
+4. Run `test.sh` bash script to test the server out locally:
 
 ```bash
-npm install
+bash test.sh
 ```
 
-5. To start your server, run:
-
-```bash
-npm run dev
-```
-
-6. To test that the server is up and running, either open a browser and navigate to `http://localhost:5173` or from the command-line run:
-
-```bash
-curl -o /dev/null -s -w "%{http_code}" http://localhost:5173 | grep 200
-```
-
-7. If you see the site in your browser or got a `200 OK` response back, congrats!
+5. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:5173` to take a peak at the site.
 
 ## In Progress
 
