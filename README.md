@@ -1,10 +1,12 @@
+[![Build and Deploy Static Files to GitHub Pages](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml/badge.svg)](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml)
+
 # React + TypeScript + Vite
 
 Template from [here](https://github.com/tailwindtoolbox/Landing-Page/blob/master/index.html).
 
 ## Requirements
 
-For our developer setup we have assumed Ubuntu 22.04 as our base OS.
+For our developer setup the only requirement is that Node.js v18 is installed on their machine to run the site locally.
 
 ## Description
 
@@ -18,21 +20,13 @@ A simple setup using:
 
 ## Setup
 
-### Automatic (Recommended)
+### Automatic (Recommended for Ubuntu 22.04)
 
 1. Curl the `setup.sh` script and run it with bash on your machine:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/setup.sh | bash -
+curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/main/setup.sh | bash -
 ```
-
-2. To start the dev server and test that it works, curl the `test.sh` script and run it with bash:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/test.sh | bash -
-```
-
-3. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:5173` to take a peak at the site.
 
 ### Manual
 
@@ -54,16 +48,35 @@ cd ./relativepath.tech
 bash setup.sh
 ```
 
-4. Run the `test.sh` bash script to test the dev server out locally:
+## Building
+
+1. To build the server, run the `build.sh` script with bash:
+
+```bash
+bash build.sh
+```
+
+## Start the server
+
+1. To start the server locally at `http://localhost:4173`, run the 'start-server.sh` script with bash:
+
+```bash
+bash start-server.sh
+```
+
+## Testing
+
+1. Run the `test.sh` bash script to test the server locally:
 
 ```bash
 bash test.sh
 ```
 
-5. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:5173` to take a peak at the site.
+2. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:4173` to take a peak at the site.
 
 ## In Progress
 
+- `policy.sh` for compliance
 - `build.sh` script for local build automation
 - `test.sh` script for local testing automation
 - Add a badge for CICD status visibility

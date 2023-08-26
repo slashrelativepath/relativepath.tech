@@ -2,24 +2,23 @@
 
 # This script sets up a Ubuntu machine to run this Node.js app locally
 
+
+# Check if node is in apt-cache
+if [ $(apt-cache show nodejs) ]
+then
+  echo "nodejs is already in the apt-cache"
+else
+  sudo apt update
+fi
+
 # Install Node.js runtime environment
 if [ -n "$(nodejs --version)" ]
 then
   echo "Node.js is already installed"
 else
   echo "Installing nodejs"
-  sudo apt update
+  curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
   sudo apt install -y nodejs
-fi
-
-# Install npm package manager for JS
-if [ -n "$(npm --version)" ]
-then
-  echo "npm is already installed"
-else
-  echo "Installing npm"
-  sudo apt update
-  sudo apt install -y npm
 fi
 
 # Install git
@@ -42,7 +41,7 @@ else
   cd ./relativepath.tech
 fi
 
-# Move into the local repo
+# Move into the local repo and install depedencies
 if [ -n "$(pwd | grep relativepath.tech)" ]
 then
   echo "Already in relativepath.tech"
@@ -50,3 +49,7 @@ else
   cd ./relativepath.tech
   echo "In path $(pwd)"
 fi
+
+# npm install will check if requirements have been installed, if so do nothing, 
+# and if not install them
+npm install
