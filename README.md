@@ -23,13 +23,13 @@ A simple setup using:
 1. Curl the `setup.sh` script and run it with bash on your machine:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/setup.sh | bash -
+curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/main/setup.sh | bash -
 ```
 
 2. To start the dev server and test that it works, curl the `test.sh` script and run it with bash:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/test.sh | bash -
+curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/main/test.sh | bash -
 ```
 
 3. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:5173` to take a peak at the site.
