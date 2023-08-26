@@ -27,6 +27,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Start Server
+        run: npm start
+
       - name: Test
         run: |
           if [ $(curl -o /dev/null -s -w "%{http_code}" http://localhost:5173 | grep 200) ]
