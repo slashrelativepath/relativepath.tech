@@ -30,5 +30,4 @@ jobs:
 
       - name: Test Server
         run: |
-          npm run preview &&\
-            curl -o /dev/null -s -w "%{http_code}" http://localhost:4173/ | grep 200
+          npm run preview && sh -c "curl -o /dev/null -s -w "%{http_code}" http://localhost:4173/ | grep 200"
