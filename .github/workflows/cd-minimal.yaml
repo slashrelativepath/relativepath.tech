@@ -10,7 +10,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false 
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -39,8 +39,8 @@ jobs:
 
       - name: Upload Static Assets
         uses: actions/upload-pages-artifact@v2
-          with:
-            path: "dist"
+        with:
+          path: "dist"
 
       - name: Deploy to GitHub Pages
         id: deployment
