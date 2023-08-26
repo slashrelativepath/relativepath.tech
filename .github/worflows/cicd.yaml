@@ -23,7 +23,7 @@ jobs:
       - name: Lint
         run: npm run lint
 
-      - name: Build
+      - name: Setup Local Test
         run: npm run dev
 
       - name: test
@@ -35,8 +35,11 @@ jobs:
           exit 1
           fi
 
+      - name: Build our Static Assets
+        run: npm run build
+
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: build # The folder the action should deploy.
+          folder: dist # The folder the action should deploy.
           token: ${{ secrets.DEPLOY_TOKEN }} # Token stored in secrets
