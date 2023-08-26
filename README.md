@@ -18,6 +18,24 @@ A simple setup using:
 
 ## Setup
 
+### Automatic (Recommended)
+
+1. Curl the `setup.sh` script and run it with bash on your machine:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/setup.sh | bash -
+```
+
+2. To start the dev server and test that it works, curl the `test.sh` script and run it with bash:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/chris/npm-ci/test.sh | bash -
+```
+
+3. If you see a `200 OK` response back, congrats! Open your browser and head over to `http://localhost:5173` to take a peak at the site.
+
+### Manual
+
 1. Navigate to a location on your file system you'd like to put this project and clone this repository by running:
 
 ```bash
@@ -48,7 +66,5 @@ bash test.sh
 
 - `build.sh` script for local build automation
 - `test.sh` script for local testing automation
-- We need a `token` or `ssh-key` to actually deploy the site to GitHub Pages
-- After we have a working GH Pages pipeline, swap branch in `cicd.yaml` to trigger on push or pull request to "main"
 - Add a badge for CICD status visibility
 - Add badges for requirements visibility
