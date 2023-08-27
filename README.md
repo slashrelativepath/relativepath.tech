@@ -20,16 +20,6 @@ A simple setup using:
 
 ## Setup
 
-### Automatic (Recommended for Ubuntu 22.04)
-
-1. Curl the `setup.sh` script and run it with bash on your machine:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/kensonjohnson/relativepath.tech/main/setup.sh | bash -
-```
-
-### Manual
-
 1. Navigate to a location on your file system you'd like to put this project and clone this repository by running:
 
 ```bash
