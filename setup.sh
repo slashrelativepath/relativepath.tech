@@ -1,53 +1,43 @@
 #! /bin/bash
 
-# This script sets up a Ubuntu machine to run this Node.js app locally
-
-
-# Check if node is in apt-cache
-if [ $(apt-cache show nodejs) ]
-then
-  echo "nodejs is already in the apt-cache"
-else
-  sudo apt update
-fi
+# This script sets up the development environment for relativepath.tech
 
 # Install Node.js runtime environment
-if [ -n "$(nodejs --version)" ]
+if (nodejs --version > /dev/null)
 then
-  echo "Node.js is already installed"
+  echo "Node is installed."
 else
-  echo "Installing nodejs"
+  echo "Installing nodejs..."
   curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash -
   sudo apt install -y nodejs
 fi
 
 # Install git
-if [ -n "$(git --version)" ]
+if $(git --version > /dev/null)
 then
-  echo "git is already installed"
+  echo "git is installed"
 else
-  echo "Installing git"
-  sudo apt-get update
-  sudo apt-get install -y git-all
+  echo "Installing git..."
+  sudo apt update
+  sudo apt install -y git
 fi
 
 # Clone the repository
 if [ -d ./relativepath.tech ]
 then
-  echo "Repository is already cloned locally on system"
+  echo "Repository is already cloned."
 else
-  echo "Cloning relativepath.tech"
+  echo "Cloning relativepath.tech..."
   git clone https://github.com/kensonjohnson/relativepath.tech.git
   cd ./relativepath.tech
 fi
 
 # Move into the local repo and install depedencies
-if [ -n "$(pwd | grep relativepath.tech)" ]
+if $(pwd | grep relativepath.tech > /dev/null)
 then
   echo "Already in relativepath.tech"
 else
   cd ./relativepath.tech
-  echo "In path $(pwd)"
 fi
 
 # npm install will check if requirements have been installed, if so do nothing, 
