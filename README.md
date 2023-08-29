@@ -29,10 +29,10 @@ git clone https://github.com/kensonjohnson/relativepath.tech.git
 cd ./relativepath.tech
 ```
 
-3. Run the `setup.sh` bash script to install requirements:
+3. Run the `local.sh` bash script to install requirements:
 
 ```bash
-bash setup.sh
+bash local.sh
 ```
 
 ## Building
