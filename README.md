@@ -1,22 +1,19 @@
 [![Build and Deploy Static Files to GitHub Pages](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml/badge.svg)](https://github.com/kensonjohnson/relativepath.tech/actions/workflows/deploy-to-github-pages.yml)
 
-# React + TypeScript + Vite
+# Relative Path Website
 
-Template from [here](https://github.com/tailwindtoolbox/Landing-Page/blob/master/index.html).
+![typescript]
+![react]
+![tailwindcss]
+![vite]
+
+## Description
+
+This is the source code for the [relativepath.tech](https://relativepath.tech) website. The site is built using [React](https://reactjs.org/) and [TailwindCSS](https://tailwindcss.com/) and the demo site is hosted on [GitHub Pages](https://pages.github.com/).
 
 ## Requirements
 
 For our developer setup the only requirement is that Node.js v18 is installed on their machine to run the site locally.
-
-## Description
-
-A simple setup using:
-
-- Vite ( build tool)
-- TypeScript (build tool)
-- React (UI)
-- Tailwind CSS (UI)
-- Example of the project file structure
 
 ## Setup
 
@@ -26,16 +23,16 @@ A simple setup using:
 git clone https://github.com/kensonjohnson/relativepath.tech.git
 ```
 
-2. `cd` into the `relativepath.tech` directory:
+2. Navigate to the `relativepath.tech` directory:
 
 ```bash
 cd ./relativepath.tech
 ```
 
-3. Run the `setup.sh` bash script to make sure your system has necessary requirements:
+3. Run the `local.sh` bash script to install requirements:
 
 ```bash
-bash setup.sh
+bash local.sh
 ```
 
 ## Building
@@ -69,5 +66,11 @@ bash test.sh
 - `policy.sh` for compliance
 - `build.sh` script for local build automation
 - `test.sh` script for local testing automation
-- Add a badge for CICD status visibility
-- Add badges for requirements visibility
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
+[typescript]: https://img.shields.io/badge/Typescript-20232A?style=for-the-badge&logo=typescript
+[react]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react
+[tailwindcss]: https://img.shields.io/badge/TailwindCSS-20232A?style=for-the-badge&logo=tailwind-css
+[vite]: https://img.shields.io/badge/Vite-20232A?style=for-the-badge&logo=vite
