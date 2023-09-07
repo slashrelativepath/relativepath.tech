@@ -11,14 +11,18 @@ export function Nav() {
           Home
         </Link>
         <Link
-          content="About"
           to="/about"
           className="inline-block py-2 px-4 text-black no-underline"
         >
           About
         </Link>
         <Link
-          content="Not Found"
+          to="/data-route"
+          className="inline-block py-2 px-4 text-black no-underline"
+        >
+          Data Route
+        </Link>
+        <Link
           to="/not-found"
           className="inline-block py-2 px-4 text-black no-underline"
         >
