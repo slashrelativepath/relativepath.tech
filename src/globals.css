@@ -1,5 +1,6 @@
-.gradient {
-  background: linear-gradient(90deg, #161617, #2c2c2e);
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
 
 @tailwind base;
