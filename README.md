@@ -11,6 +11,14 @@
 
 This is the source code for the [relativepath.tech](https://relativepath.tech) website. The site is built using [React](https://reactjs.org/) and [TailwindCSS](https://tailwindcss.com/) and the demo site is hosted on [GitHub Pages](https://pages.github.com/).
 
+## Resources
+
+- [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [GitHub Pages](https://pages.github.com/)
+
 ## Requirements
 
 For our developer setup the only requirement is that Node.js v18 is installed on their machine to run the site locally.
