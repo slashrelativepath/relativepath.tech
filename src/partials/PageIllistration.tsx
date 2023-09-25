@@ -1,11 +1,11 @@
 export default function PageIllustration() {
   return (
     <div
-      className="relative max-w-6xl mx-auto h-0 pointer-events-none"
+      className="pointer-events-none mx-auto h-0 max-w-6xl"
       aria-hidden="true"
     >
       <svg
-        className="absolute top-0 right-0 transform translate-x-1/2 -mr-16"
+        className="absolute right-0 top-0 -mr-16 translate-x-1/2 transform"
         width="722"
         height="320"
         fill="none"
