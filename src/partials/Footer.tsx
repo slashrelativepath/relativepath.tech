@@ -4,19 +4,19 @@ export default function Footer() {
   return (
     <footer className="mt-auto">
       <div className="py-12 md:py-16">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
               <li>
                 <Link
                   to="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Twitter"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -26,12 +26,12 @@ export default function Footer() {
               </li>
               <li className="ml-4">
                 <Link
-                  to="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  to="https://github.com/slashrelativepath"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Github"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -42,11 +42,11 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   to="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Facebook"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -57,11 +57,11 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   to="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Instagram"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -74,11 +74,11 @@ export default function Footer() {
               <li className="ml-4">
                 <Link
                   to="/"
-                  className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Linkedin"
                 >
                   <svg
-                    className="w-8 h-8 fill-current"
+                    className="h-8 w-8 fill-current"
                     viewBox="0 0 32 32"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -89,7 +89,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">
+            <div className="mr-4 text-sm text-gray-400">
               &copy; RelativePath.tech All rights reserved.
             </div>
           </div>
