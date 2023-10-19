@@ -45,10 +45,10 @@ export function Header() {
               </li>
               <li>
                 <Link
-                  to="/no-match"
+                  to="/contact"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
-                  No Match
+                  Contact
                 </Link>
               </li>
               {/* 1st level: hover */}
