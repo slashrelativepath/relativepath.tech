@@ -87,11 +87,11 @@ export function MobileMenu() {
           </li>
           <li>
             <Link
-              to="/no-match"
+              to="/contact"
               className="flex py-2 text-gray-300 hover:text-gray-200"
               onClick={() => setMobileNavOpen(false)}
             >
-              No Match
+              Contact
             </Link>
           </li>
         </ul>
