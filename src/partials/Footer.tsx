@@ -9,7 +9,8 @@ export default function Footer() {
           <div className="md:flex md:items-center md:justify-between">
             {/* Social links */}
             <ul className="mb-4 flex md:order-1 md:mb-0 md:ml-4">
-              <li>
+              {/* Twitter */}
+              {/* <li>
                 <Link
                   to="/"
                   className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
@@ -23,10 +24,13 @@ export default function Footer() {
                     <path d="M24 11.5c-.6.3-1.2.4-1.9.5.7-.4 1.2-1 1.4-1.8-.6.4-1.3.6-2.1.8-.6-.6-1.5-1-2.4-1-1.7 0-3.2 1.5-3.2 3.3 0 .3 0 .5.1.7-2.7-.1-5.2-1.4-6.8-3.4-.3.5-.4 1-.4 1.7 0 1.1.6 2.1 1.5 2.7-.5 0-1-.2-1.5-.4 0 1.6 1.1 2.9 2.6 3.2-.3.1-.6.1-.9.1-.2 0-.4 0-.6-.1.4 1.3 1.6 2.3 3.1 2.3-1.1.9-2.5 1.4-4.1 1.4H8c1.5.9 3.2 1.5 5 1.5 6 0 9.3-5 9.3-9.3v-.4c.7-.5 1.3-1.1 1.7-1.8z" />
                   </svg>
                 </Link>
-              </li>
+              </li> */}
+              {/* GitHub */}
               <li className="ml-4">
                 <Link
                   to="https://github.com/slashrelativepath"
+                  target="_blank"
+                  referrerPolicy="no-referrer"
                   className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
                   aria-label="Github"
                 >
@@ -39,7 +43,8 @@ export default function Footer() {
                   </svg>
                 </Link>
               </li>
-              <li className="ml-4">
+              {/* Facebook */}
+              {/* <li className="ml-4">
                 <Link
                   to="/"
                   className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
@@ -53,8 +58,8 @@ export default function Footer() {
                     <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
                   </svg>
                 </Link>
-              </li>
-              <li className="ml-4">
+              </li> */}
+              {/* <li className="ml-4">
                 <Link
                   to="/"
                   className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
@@ -70,8 +75,9 @@ export default function Footer() {
                     <path d="M20 24h-8c-2.056 0-4-1.944-4-4v-8c0-2.056 1.944-4 4-4h8c2.056 0 4 1.944 4 4v8c0 2.056-1.944 4-4 4zm-8-14c-.935 0-2 1.065-2 2v8c0 .953 1.047 2 2 2h8c.935 0 2-1.065 2-2v-8c0-.935-1.065-2-2-2h-8z" />
                   </svg>
                 </Link>
-              </li>
-              <li className="ml-4">
+              </li> */}
+              {/* LinkedIn */}
+              {/* <li className="ml-4">
                 <Link
                   to="/"
                   className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
@@ -83,6 +89,24 @@ export default function Footer() {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path d="M23.3 8H8.7c-.4 0-.7.3-.7.7v14.7c0 .3.3.6.7.6h14.7c.4 0 .7-.3.7-.7V8.7c-.1-.4-.4-.7-.8-.7zM12.7 21.6h-2.3V14h2.4v7.6h-.1zM11.6 13c-.8 0-1.4-.7-1.4-1.4 0-.8.6-1.4 1.4-1.4.8 0 1.4.6 1.4 1.4-.1.7-.7 1.4-1.4 1.4zm10 8.6h-2.4v-3.7c0-.9 0-2-1.2-2s-1.4 1-1.4 2v3.8h-2.4V14h2.3v1c.3-.6 1.1-1.2 2.2-1.2 2.4 0 2.8 1.6 2.8 3.6v4.2h.1z" />
+                  </svg>
+                </Link>
+              </li> */}
+              {/* YouTube */}
+              <li className="ml-4">
+                <Link
+                  to="https://www.youtube.com/@relative_path"
+                  target="_blank"
+                  referrerPolicy="no-referrer"
+                  className="flex items-center justify-center rounded-full bg-gray-800 text-purple-600 transition duration-150 ease-in-out hover:bg-purple-600 hover:text-gray-100"
+                  aria-label="YouTube"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-8 w-8 fill-current"
+                    viewBox="-4 -4 24 24"
+                  >
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
                   </svg>
                 </Link>
               </li>
