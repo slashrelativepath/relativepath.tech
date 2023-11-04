@@ -11,7 +11,7 @@ import { Layout } from "./Layout";
 // Bring in the pages
 import { Home } from "./pages/Home";
 import { About } from "./pages/About";
-import { DataRoute } from "./pages/DataRoute";
+// import { DataRoute } from "./pages/DataRoute";
 import { NoMatch } from "./pages/NoMatch";
 
 // Create a router
@@ -25,11 +25,11 @@ const router = createBrowserRouter([
       // that will be called when the route is rendered.
       // Although the data loader function is async, it is not
       // required to be async. It can return a promise or a value.
-      {
-        path: "/data-route",
-        Component: DataRoute,
-        loader: () => ({ message: "Hello Data!" }),
-      },
+      // {
+      //   path: "/data-route",
+      //   Component: DataRoute,
+      //   loader: () => ({ message: "Hello Data!" }),
+      // },
       { path: "*", Component: NoMatch },
     ],
   },

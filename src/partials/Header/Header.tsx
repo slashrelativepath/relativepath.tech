@@ -35,14 +35,14 @@ export function Header() {
                   About
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link
                   to="/data-route"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
                   Data Route
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link
                   to="/contact"
