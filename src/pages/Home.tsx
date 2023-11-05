@@ -1,7 +1,13 @@
+import { Hero } from "../partials/Home/Hero";
+import { HeroImage } from "../partials/Home/HeroImage";
+import { Content } from "../partials/Home/Content";
+
 export function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
+    <main className="flex flex-col pt-12">
+      <Hero />
+      <HeroImage />
+      <Content />
+    </main>
   );
 }

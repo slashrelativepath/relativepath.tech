@@ -76,7 +76,7 @@ export function MobileMenu() {
               About
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               to="/data-route"
               className="flex py-2 text-gray-300 hover:text-gray-200"
@@ -84,7 +84,7 @@ export function MobileMenu() {
             >
               Data Route
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link
               to="/contact"

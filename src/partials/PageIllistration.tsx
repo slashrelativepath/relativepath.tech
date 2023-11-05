@@ -5,7 +5,7 @@ export default function PageIllustration() {
       aria-hidden="true"
     >
       <svg
-        className="absolute right-0 top-0 -mr-16 translate-x-1/2 transform"
+        className="absolute right-0 top-0 -z-10 -mr-16 translate-x-1/2 transform"
         width="722"
         height="320"
         fill="none"
