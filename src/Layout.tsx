@@ -9,9 +9,10 @@ import Footer from "./partials/Footer";
 export function Layout() {
   return (
     <>
-      <PageIllustration />
+      {/* class="font-inter relative min-h-screen overflow-x-hidden bg-gray-900 tracking-tight text-gray-200 antialiased" */}
+      <Header />
       <div className="mx-auto flex min-h-screen max-w-6xl flex-col">
-        <Header />
+        <PageIllustration />
         {/* An <Outlet> renders whatever child route is currently active,
             so you can think about this <Outlet> as a placeholder for
             the child routes we defined above. */}
