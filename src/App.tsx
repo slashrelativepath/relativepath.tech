@@ -10,7 +10,7 @@ import { Layout } from "./Layout";
 
 // Bring in the pages
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
+// import { About } from "./pages/About";
 // import { DataRoute } from "./pages/DataRoute";
 import { NoMatch } from "./pages/NoMatch";
 
@@ -20,7 +20,9 @@ const router = createBrowserRouter([
     Component: Layout,
     children: [
       { path: "/", Component: Home },
-      { path: "/about", Component: About },
+      // { path: "/about", Component: About },
+      // { path: "/contact", Component: Contact },
+
       // A data route is a route that has a data loader function
       // that will be called when the route is rendered.
       // Although the data loader function is async, it is not
