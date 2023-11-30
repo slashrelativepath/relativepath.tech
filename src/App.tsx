@@ -10,7 +10,7 @@ import { Layout } from "./Layout";
 
 // Bring in the pages
 import { Home } from "./pages/Home";
-import { About } from "./pages/About";
+// import { About } from "./pages/About";
 // import { DataRoute } from "./pages/DataRoute";
 import { NoMatch } from "./pages/NoMatch";
 
