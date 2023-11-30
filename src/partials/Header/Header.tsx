@@ -27,14 +27,14 @@ export function Header() {
           <nav className="hidden md:flex md:grow">
             {/* Desktop menu links */}
             <ul className="flex grow flex-wrap items-center justify-end">
-              <li>
+              {/* <li>
                 <Link
                   to="about"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
                   About
                 </Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link
                   to="/data-route"
@@ -43,15 +43,14 @@ export function Header() {
                   Data Route
                 </Link>
               </li> */}
-              <li>
+              {/* <li>
                 <Link
                   to="/contact"
                   className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
                 >
                   Contact
                 </Link>
-              </li>
-              {/* 1st level: hover */}
+              </li> */}
             </ul>
           </nav>
 
