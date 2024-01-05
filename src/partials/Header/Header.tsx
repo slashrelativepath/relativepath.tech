@@ -43,14 +43,14 @@ export function Header() {
                   Data Route
                 </Link>
               </li> */}
-              {/* <li>
+              <li>
                 <Link
-                  to="/contact"
-                  className="flex items-center px-4 py-2 text-gray-300 transition duration-150 ease-in-out hover:text-gray-200"
+                  to="mailto:info@relativepath.tech"
+                  className="flex items-center rounded bg-blue-600 px-4 py-2 text-xl font-semibold text-gray-200 transition duration-150 ease-in-out hover:bg-blue-500 hover:text-white"
                 >
                   Contact
                 </Link>
-              </li> */}
+              </li>
             </ul>
           </nav>
 
